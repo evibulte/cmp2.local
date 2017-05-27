@@ -1,0 +1,389 @@
+/*
+Theme Name: Cavalier
+Theme URI: http://dev-cavalier.pantheonsite.io/
+Description: This is a theme for Cavalier chocolat with stevia.
+Version: 1.0
+Author: Evi Bulteel, Sari De Clercq
+Author URI: http://dev-cavalier.pantheonsite.io/
+Tags: Chocolate, colors, delcious, theme
+*/
+*{
+  margin:0;
+  padding:0;
+}
+
+html{
+  height: 100%;
+}
+
+body {
+  background: #d7d2c0;
+  font-family: 'Lucida Sans', arial, sans-serif;
+  color: #342018;
+  font-size: 16px;
+  position: relative;
+  min-height: 100%;
+}
+
+.grid__wrapper {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.grid__container {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.entry-header{
+  margin-bottom: 15px;
+}
+
+.custom_logo{
+  float: left;
+  margin-bottom: -10px;
+  margin-top: 20px;
+}
+
+.custom_header{
+  width:100%;
+    overflow:hidden;
+}
+
+.comment-body{
+  background: #fcfcfa;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.comment-author{
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight: bold;
+  font-style: none;
+  color: #482c23;
+    text-align: left;
+}
+
+.avatar, .photo{
+  float: left;
+  margin-right: 5px;
+}
+
+.comment-body p{
+  font-family: 'Lucida Sans', sans-serif;
+  color: #482c23;
+  text-transform: none;
+  clear: left;
+  }
+
+  .comment{
+    margin-top: 20px;
+  }
+
+.comment-meta a, .commentmetadata a, .comment-edit-link, .fn, .says{
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 12px;
+  font-style: none;
+  font-weight: 0;
+  color: #482c23; 
+}
+
+.comment-respond{
+  clear: left;
+  margin-top: 10px;
+  height: 100%;
+  display: block;
+}
+
+.logged-in-as a{
+  color: #482c23;
+  text-transform: uppercase;
+  font-weight: 0;
+  font-size: 14px;
+}
+
+.comment-form-comment{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.wpcf7-form-control{
+  background: #fcfcfa;
+  font-family: 'Lucida Sans', sans-serif;
+  color: #482c23;
+  padding: 5px;
+}
+
+.submi, .wpcf7-submit{
+  background: #342018;
+  color: #d7d2c0;
+  font-weight: 600;
+  padding: 10px 7px;
+  font-size: 15px;
+}
+
+.wpcf7-form p{
+  margin-bottom: 20px;
+}
+
+.fn, .says,{
+  font-size: 17px;
+}
+
+.comment-body p{
+  margin-bottom: 15px;
+}
+
+.reply{
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 5px;
+  text-transform: none;
+}
+
+#content ol li{
+  width: 500px;
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Nirmala UI', sans-serif;
+  font-weight: 700;
+  color: #482c23;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.logo-title{
+  font-size: 140px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+li, li a{
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  float: left;
+  height: 35px;
+  text-align: center;
+  color: #482c23;
+}
+
+.navbar-collapse a,.menu-item a {
+  font-size: 18px;
+  font-weight: 700;
+  padding-right: 20px;
+  padding-top: 15px;
+  float: left;
+}
+
+.header .logo {
+  font-size: 26px;
+  width: 100%;
+}
+
+.logo{
+  color: #fcfcfa;
+  font-family: 'Minion Pro';
+  text-transform: uppercase;
+}
+
+.navbar-collapse a {
+  font-weight: normal;
+  margin-right: 80px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover,.menu-item a:hover  {
+  color: #342018;
+  background: none;
+}
+a:focus, .menu-item a:focus {
+  outline: none;
+  background: none;
+}
+a:active, .menu-item a:active {
+  outline: none;
+  background: none;
+}
+.nav-item.active, .menu-item.active {
+  color: #482c23;
+}
+.nav-item.last, .menu-item.last {
+  margin-right: 0;
+}
+
+.side-nav{
+  position: fixed;
+  width: 10%;
+  margin-left: 10px;
+  margin-top: 5%;
+}
+
+.sidenavigation li, .sidenavigation li a{
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  float: left;
+  height: 30px;
+  color: #482c23;
+  left: 0;
+  width: 180px;
+  color: #d7d2c0;
+  font-size: 15px;
+}
+
+.sidenavigation li{
+  background: #fcfcfa;
+  margin: 5px;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+
+.center{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  margin-top: 70px;
+  padding-bottom: 25px;
+  padding-left: 15%;
+}
+
+.entry-content{
+  margin-bottom: 5px;
+}
+
+.entry-meta{
+  margin-bottom: 20px;
+}
+
+.edit-link a{
+  color: #482c23;
+  font-style: none;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 5px;
+  background: #fcfcfa;
+}
+
+.feature_image{
+  left: 1000px;
+  top: 460px;
+  position: absolute;
+}
+
+.type-product{
+  width: 400px;
+}
+
+.alleproducten{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.alleproducten .type-product{
+  width: 400px;
+  height: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: #fcfcfa;
+  padding: 10px 25px;
+}
+
+.feature_imageproducten{
+  width: 100px;
+  margin-top: 0;
+  float: right;
+}
+
+.blogvak{
+  width: 500px;
+  border: 2px solid #fcfcfa;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+}
+
+.blogtitel{
+  text-transform: none;
+  font-size: 30px;
+}
+
+.blogtekst p{
+  font-size: 14px;
+  color: #482c23;
+}
+
+.datum{
+  font-style: italic;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.footer-nav, footernavigation{
+  display: block;
+  height: 80px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  width: 150px;
+}
+
+.widget-gallery-slideshow, .carousel, #widget-gallery-2-slideshow{
+  width: 700px;
+  background: #d7d2c0;
+  float: right;
+  margin-top: 0;
+  border: none;
+  z-index: -1;
+}
+
+.widget-gallery-slideshow{
+  position: absolute;
+  top: 550px;
+  left: 1050px;
+}
+
+.slideshow-controls{
+  visibility: hidden;
+}
+
+#post-1 .entry-content, #post-2 .entry-content{
+  width: 700px;
+}
+
+#wpcf7-f31-p12-o1, #wpcf7-f55-p20-o1{
+  margin-top: 30px;
+}
+
+#primary {
+	width: 100%;
+  height: 100%;
+}
+#content {
+	width: 58.4%;
+  height: 100%;
+}
+
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
